@@ -19,6 +19,7 @@ PRIMITIVES = [
     'sep_conv_5x5',
     'dil_conv_3x3',
     'dil_conv_5x5',
+    'transformer',
     'none'
 ]
 

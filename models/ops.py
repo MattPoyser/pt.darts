@@ -2,7 +2,7 @@
 import torch
 import torch.nn as nn
 import genotypes as gt
-from transformer import EvolvedTransformerBlock
+from models.transformer import EvolvedTransformerBlock
 
 
 OPS = {

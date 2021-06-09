@@ -90,7 +90,8 @@ def main():
     print_mode = False
     non_update_epochs = 0
     top1 = None
-    save_indices(train_loader.dataset.get_printable(), 0)
+    if config.dynamic:
+        save_indices(train_loader.dataset.get_printable(), 0)
 
     # TODO: seperate counter for training epochs as opposed to training / dataset update combined
     for epoch in range(config.epochs):
